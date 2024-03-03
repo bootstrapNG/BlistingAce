@@ -13,3 +13,33 @@
     margin-top:-170px;
     margin-left: 10%;
 }
+
+footer
+{
+    background: #333333;
+    height: 100px;
+}
+
+
+.fixed-bottom {
+    left: unset !important;
+}
+
+
+.bi-chat-fill{
+    line-height: 0;
+    font-size: 30px;
+}
+
+/* Set width as 300px and display as none */
+#chatDiv
+{
+width: 350px;
+display: none;
+}
+
+/* Set vertical-align as middle */
+#chatDiv span
+{
+
+}
