@@ -84,6 +84,36 @@
         </a> 
 
     </div>  
+    </div>
+
+<footer class="container-fluid pt-2">
+      <p class="float-end">
+          <a href="#mainCarousel" class="btn btn-warning">
+              <i class="bi bi-chevron-double-up"></i>
+          </a>
+      </p>
+       <p>© <span class="text-danger">The Blitsing Ace</span> All Rights Reserved</p>
+</footer>
+
+<button class="fixed-bottom btn btn-danger" onclick="openChat()" >
+    <i class="bi bi-chat-fill"></i>
+    Chat with John
+</button>
+
+<div class="fixed-bottom bg-danger rounded" id="chatDiv">
+    <span class="fw-bold m-2">John</span>
+    <button onclick="closeChat()" class="btn text-white float-end">
+        <i class="bi bi-caret-down-fill"></i>
+    </button>
+    
+    <!-- Copy and paste chatbot integration link and adjust size -->
+<iframe
+    allow="microphone;"
+    width="350"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/230bf867-215e-488a-9021-7120ffdfd96b">
+</iframe>
+</div>
 
   </body>
 </html>
